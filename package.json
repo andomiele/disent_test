@@ -1,0 +1,47 @@
+{
+  "name": "landing",
+  "version": "0.1.0",
+  "description": "landing",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "dev": "webpack --mode development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andomiele"
+  },
+  "author": "Andomiele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andomiele"
+  },
+  "homepage": "https://github.com",
+  "main": "src/index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^6.11.0",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "filemanager-webpack-plugin": "^8.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "postcss": "^8.4.18",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^8.1.1",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
+    "style-loader": "^3.3.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.3",
+    "write-file-webpack-plugin": "^4.5.1"
+  }
+}
